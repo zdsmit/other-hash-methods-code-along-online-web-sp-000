@@ -9,7 +9,9 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
+  empty_array = []
   groceries.each do |key, value|
-    return key
+    empty_array << key
   end
+  return empty_array
 end
